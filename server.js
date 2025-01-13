@@ -6,7 +6,7 @@ const Feedback = require('./models/fb');
 const app = express();
 const port = 3000;
 
-mongoose.connect('mongodb://localhost:27017/coder_one_project',{
+mongoose.connect('mongodb+srv://arunpvt2005:arun111975@feedbackdata.8cd8b.mongodb.net/?retryWrites=true&w=majority&appName=feedbackdata',{
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
