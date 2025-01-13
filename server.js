@@ -46,7 +46,7 @@ app.post('/submit-feedback', async (req, res)=>{
             `);
 
     } catch(err){
-        console.err('Error Saving feedback:',err);
+        console.error('Error Saving feedback:',err);
         res.status(500).send('There was an error in submitting your feedback');
     }
 });
