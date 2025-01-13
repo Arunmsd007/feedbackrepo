@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const port = process.env.PORT || 10000;
+const port = process.env.PORT || 3000;
 
 const  feedbackSchema = new mongoose.Schema({
     name: String,
